@@ -1,0 +1,6 @@
+# Netlify build for Next.js prototype (run with Base directory = prototype in Netlify UI)
+[build]
+  command = "npm run build"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
